@@ -13,7 +13,7 @@ body {font-family: 'Roboto', sans-serif; background-color:#000;}
 
 /******* about frame ********************/
 #about {padding: 3.5rem 4rem; height: auto; overflow: auto; background-color: #000;}
-#about p {letter-spacing: 2px; color: #666; margin-top:3rem;}
+#about p {letter-spacing: 2px; color: #aaa; margin-top:3rem;}
 #about h1 {font-size: 4.2rem; color: #fff; font-family: 'abril fatface',cursive;}
 #about img {border-radius:40rem;}
 
@@ -85,4 +85,51 @@ body {font-family: 'Roboto', sans-serif; background-color:#000;}
     #about h1 {font-size: 3.2rem;}
     #about img {width: 90%;}
     #work {width: 80%;}
+}
+
+@media only screen and (min-width:1400px) and (max-width:1800px){
+    #about p {font-size: 1.5rem;}
+    #about h1 {font-size: 4.2rem;}
+    #about p {font-size: 2rem;}
+    #skills .card-title {font-size: 1.5rem;}
+    #skills .card-text {font-size: 1.2rem;}
+    #work > p {font-size: 1.5rem;}
+    #work .row .card h3 {font-size: 3rem;}
+    #work .row .card p {font-size: 1.5rem;}
+    #contact > img {width: 15%; margin: 1rem 0;}
+}
+
+@media only screen and (min-width:1801px) and (max-width:2200px){
+    .navbar .navbar-brand {font-size: 3rem;}
+    .navbar-dark .navbar-nav .nav-link {font-size: 2rem;}
+    #about h1 {font-size: 5.2rem;}
+    #about p {font-size: 1.8rem;}
+    #skills .card-title {font-size: 2rem;}
+    #skills .card-text {font-size: 1.8rem;}
+    #work {width: 78%;}
+    #work h2 {font-size: 5rem;}
+    #work > p {font-size: 2rem;}
+    #work > p {margin-bottom: 5rem;}
+    #work .row .card h3 {font-size: 3rem;}
+    #work .row .card p {font-size: 2rem;}
+    #contact h2 {font-size: 5rem;}
+    #contact > p {font-size: 3rem;}
+    #contact ul li img {width: 4rem; margin: 3rem 1.5rem;}
+}
+
+@media only screen and (min-width:2201px) and (max-width:2800px){
+    .navbar .navbar-brand {font-size: 3rem;}
+    .navbar-dark .navbar-nav .nav-link {font-size: 2rem;}
+    #about h1 {font-size: 7.2rem;}
+    #about p {font-size: 2.5rem;}
+    #skills .card-title {font-size: 2rem;}
+    #skills .card-text {font-size: 1.8rem;}
+    #work h2 {font-size: 5rem;}
+    #work > p {font-size: 2rem;}
+    #work > p {margin-bottom: 5rem;}
+    #work .row .card h3 {font-size: 3rem;}
+    #work .row .card p {font-size: 2rem;}
+    #contact h2 {font-size: 5rem;}
+    #contact > p {font-size: 3rem;}
+    #contact ul li img {width: 4rem; margin: 3rem 1.5rem;}
 }
