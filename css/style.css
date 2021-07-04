@@ -76,7 +76,7 @@ body { font-family: 'Roboto', sans-serif; background-color: #000; }
   #about { padding: 0.5rem 1rem; }
   #about p { margin: 1.5rem 0; }
   #about h1 { font-size: 2.75rem; }
-  #about img { width: 70%; margin: 2rem 3rem; }
+  #about img { width: 70%; margin: 0rem 0px 2rem 30%; }
   #skills h2 { font-size: 3rem; }
   #skills .card-img-top { width: 20%; }
   #work { width: 85%; }
