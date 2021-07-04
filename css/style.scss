@@ -55,10 +55,10 @@ body {font-family: 'Roboto', sans-serif; background-color:#000;}
 @media only screen and (max-width:549px){
     .navbar .navbar-nav {margin: 0;}
     .navbar .navbar-nav li {text-align: center;}
-    #about {padding: 0.5rem 0;}
-    #about .about-body {padding: 1rem;}
+    #about {padding: 0.5rem 1rem;}
+    #about p {margin: 1.5rem 0;}
     #about h1 {font-size: 2.75rem;}
-    #about img {width: 100%; margin: 2rem 0 0 0;}
+    #about img {width: 70%; margin: 2rem 3rem;}
     #skills h2 {font-size: 3rem;}
     #skills .card-img-top {width: 20%;}
     #work {width: 85%;}
