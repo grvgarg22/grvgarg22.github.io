@@ -99,7 +99,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #work .row .card h3 { font-family: 'abril fatface',cursive; font-size: 1.5rem; }
   #contact { padding: 2rem; }
   #contact h2 { font-size: 2rem; }
-  #contact > p { font-size: 1.4rem; }
+  #contact > p { font-size: 1.25rem; margin: 0; }
   #contact > img { width: 25%; margin: 1rem 0; }
   #work .row { padding: 1rem 0; } }
 @media only screen and (min-width: 550px) and (max-width: 768px) { #about .about-body { padding: 1rem; }
