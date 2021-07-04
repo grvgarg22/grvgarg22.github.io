@@ -13,11 +13,11 @@ body { font-family: 'Roboto', sans-serif; background-color: #000; }
 
 .navbar .navbar-brand { font-size: 2rem; font-family: 'abril fatface',cursive; letter-spacing: 0.1rem; float: left; margin-left: 1rem; color: #ff7800; }
 
-.theme-color { background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; text-fill-color: transparent; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
+.theme-color { background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
 
 .navbar .navbar-nav { margin-left: 2rem; }
 
-.navbar .navbar-nav li a:hover { background: linear-gradient(to right, #00f3ff 10%, #ff9300 28%, #ff0000 60%, #eb0000 80%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; text-fill-color: transparent; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.navbar .navbar-nav li a:hover { background: linear-gradient(to right, #00f3ff 10%, #ff9300 28%, #ff0000 60%, #eb0000 80%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 /******* about frame ********************/
 #about { padding: 0rem 0 3.5rem 3.5rem; height: auto; overflow: auto; background-color: #000; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; }
@@ -39,7 +39,7 @@ body { font-family: 'Roboto', sans-serif; background-color: #000; }
 #skills .card-img-top { width: 35%; margin: 0 auto; }
 
 /************** work frame *********************/
-#work { width: 60%; margin: 2rem auto; }
+#work { width: 90%; margin: 2rem auto; }
 
 #work h2 { text-align: center; font-size: 4rem; font-family: 'abril fatface',cursive; margin-bottom: 3rem; }
 
@@ -47,7 +47,9 @@ body { font-family: 'Roboto', sans-serif; background-color: #000; }
 
 #work .row { padding: 2rem 0; }
 
-#work .row .card { border: none; background-color: transparent; }
+#work .row .card { border: none; background-color: transparent; margin-bottom: 2rem; width: 95%; }
+
+#work .row .card .card-body { padding: 1rem 0; }
 
 #work .row .card a { text-decoration: none; transition: linear 0.5s; }
 
@@ -62,7 +64,9 @@ body { font-family: 'Roboto', sans-serif; background-color: #000; }
 
 #contact h2 span { border-bottom: 2px solid; }
 
-#contact > p { font-size: 1.2rem; color: #fff; font-family: 'abril fatface',cursive; margin: 1rem 0; }
+#contact > p { font-size: 1.3rem; color: #fff; font-family: 'abril fatface',cursive; margin: 1rem 0; }
+
+#contact span { font-family: 'roboto',sans-serif; }
 
 #contact ul { list-style: none; padding: 0; margin: 0; }
 
