@@ -5,10 +5,12 @@
 
 /*********** Misc code **********************/
 
+
 body {font-family: 'Roboto', sans-serif; background-color:#000;}
 .container-fluid {padding:0;}
 .row {margin:0;}
-.navbar {background: #000 !important; box-shadow: 0px -10px 20px -2px #4158d0, 0px 0px 20px -2px #c850c0, 0 -3px 20px 2px #ffcc70; animation: hue-rotate 2.5s linear infinite both;}
+.no-pad {padding: 0;}
+.navbar {background: #000 !important; box-shadow: 0px -10px 20px -2px #4158d0, 0px 0px 20px -2px #c850c0, 0 -3px 20px 2px #ffcc70; animation: hue-rotate 2.5s linear infinite both; z-index: 999;}
 .navbar .navbar-brand {font-size:2rem; font-family:'abril fatface',cursive; letter-spacing: 0.1rem;float: left; margin-left: 1rem; color: #ff7800;}
 .theme-color {background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%,); background-size: 200% auto; background-clip: text;
     -webkit-background-clip: text; background-clip: text; text-fill-color: transparent; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both;}
@@ -17,13 +19,12 @@ body {font-family: 'Roboto', sans-serif; background-color:#000;}
     -webkit-background-clip: text; background-clip: text; text-fill-color: transparent; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}    
 
 /******* about frame ********************/
-#about {padding: 3.5rem 4rem; height: auto; overflow: auto; background-color: #000;}
-#about p {letter-spacing: 2px; color: #ddd; margin-top:3rem;
+#about {padding: 0rem 0 3.5rem 3.5rem; height: auto; overflow: auto; background-color: #000; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center;}
+#about p {letter-spacing: 2px; color: #ddd; margin-top:5rem;
     span {border-bottom: 1px solid #ddd;}
 }
 #about h1 {font-size: 4.2rem; color: #fff; font-family: 'abril fatface',cursive; margin-bottom: 1rem;}
 #about p:last-child {margin-top: 1rem; color: #888;}
-#about img {border-radius:40rem;}
 
 /********** skills frame *****************/
 #skills {padding:2rem; background-image: url("../img/skills-banner.png"); background-repeat: no-repeat; background-position: center; background-size:cover;}
