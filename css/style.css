@@ -5,19 +5,19 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 
 .container-fluid { padding: 0; }
 
+.partition { height: 2px; background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
+
 .row { margin: 0; }
 
 .no-pad { padding: 0; }
 
 .navbar { background: #000 !important; box-shadow: 0px -10px 20px -2px #4158d0, 0px 0px 20px -2px #c850c0, 0 -3px 20px 2px #ffcc70; animation: hue-rotate 2.5s linear infinite both; z-index: 999; }
 
-.navbar .navbar-brand { font-size: 2rem; font-family: 'abril fatface',cursive; letter-spacing: 0.1rem; float: left; margin-left: 1rem; color: #ff7800; }
+.navbar .navbar-brand { font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1rem; float: left; margin-left: 1rem; color: #ff7800; }
 
 .theme-color { background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
 
 .navbar .navbar-nav { margin-left: 2rem; }
-
-.navbar-dark .navbar-nav .nav-link { margin-top: 0.7rem; }
 
 .navbar .navbar-nav li a:hover { background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
@@ -32,7 +32,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #about p:last-child { margin-top: 1rem; color: #888; }
 
 /********** skills frame *****************/
-#skills { padding: 2rem; background-color: #F4D03F; background-image: linear-gradient(0deg, #222 0%, #000000 100%); color: #fff; box-shadow: 0 1px 0px 1px #f4d03f; animation: hue-rotate 2.5s linear infinite both; }
+#skills { padding: 2rem; background-color: #F4D03F; background-image: linear-gradient(0deg, #222 0%, #000000 100%); color: #fff; box-shadow: 0 1px 0px 1px #f4d03f; }
 
 #skills:after { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.76); }
 
@@ -57,7 +57,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 
 #work .row .card { border: none; background-color: transparent; margin-bottom: 2rem; width: 95%; border: 1px solid #000; padding: 0.5rem; transition: linear 500ms; border-radius: 0; }
 
-#work .row .card:hover { border: 1px solid #222; transition: linear 500ms; background-color: rgba(34, 34, 34, 0.192); }
+#work .row .card:hover { border: 1px solid #222; transition: linear 500ms; background-color: rgba(51, 51, 51, 0.23); }
 
 #work .row .card .card-body { padding: 1rem 0 0.5rem 0; }
 
@@ -68,7 +68,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #work .row .card p { color: #aaa; }
 
 /************* contact frame ********************/
-#contact { background-image: url("../img/contact-banner.jpg"); padding: 1rem 5.5rem; background-size: cover; background-repeat: no-repeat; text-align: center; box-shadow: 0px 1px 8px -2px #4158d0, 0px 2px 10px -2px #c850c0, 0 2px 15px 2px #ffcc70; animation: hue-rotate 2.5s linear infinite both; display: flex; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
+#contact { background-image: url("../img/contact-banner.jpg"); padding: 1rem 5.5rem; background-size: cover; background-repeat: no-repeat; text-align: center; display: flex; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
 
 #contact h2 { text-align: center; color: #fff; font-family: 'abril fatface',cursive; font-size: 2rem; }
 
