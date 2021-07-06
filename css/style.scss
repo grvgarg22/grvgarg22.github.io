@@ -41,7 +41,7 @@ body {font-family: 'Montserrat', sans-serif; background-color:#000;}
 #work h2 {text-align: center; font-size: 4rem; font-family:'abril fatface',cursive; margin-bottom:3rem;}
 #work > p {color:#ddd; padding: 1.5rem;}
 #work .row {padding:2rem 0;}
-#work .row .card {border:none; background-color:transparent; margin-bottom: 2rem; width: 95%; border: 1px solid #000; padding: 0.5rem; transition: linear 500ms; border-radius: 0;}
+#work .row .card {border:none; background-color:transparent; margin-bottom: 2rem; border: 1px solid #000; padding: 0.5rem; transition: linear 500ms; border-radius: 0;}
 #work .row .card:hover {border: 1px solid #222; transition: linear 500ms; background-color: rgba(51, 51, 51, 0.23);}
 #work .row .card .card-body {padding: 1rem 0 0.5rem 0;}
 #work .row .card a {text-decoration: none; transition: linear 0.5s;}
@@ -67,11 +67,11 @@ body {font-family: 'Montserrat', sans-serif; background-color:#000;}
     #about p {margin: 1.5rem 0;}
     #about h1 {font-size: 2.75rem;}
     #about img {width: 70%; margin: 0rem 0px 2rem 30%;}
-    #skills h2 {font-size: 3rem; text-align: left;}
+    #skills h2 {font-size: 3rem;}
     #skills .col-md-3, #work .col-md-4 {padding: 0;}
     #skills .card {text-align: left;}
-    #skills .card-body {padding: 1rem 0;}
-    #skills .card-img-top {width: 20%; margin: 0;}
+    #skills .card-body {padding: 1rem 0; text-align: center;}
+    #skills .card-img-top {width: 20%;}
     #work {width: 95%; margin: 1.5rem auto;}
     #work h2 {font-size: 3rem; margin-bottom: 1rem;}
     #work > p {padding: 0.5rem;}
