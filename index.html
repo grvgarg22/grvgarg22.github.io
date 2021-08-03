@@ -28,7 +28,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#skills">Skills</a>
 					</li>
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
@@ -47,6 +47,7 @@
 					<p><span>LET ME TELL YOU ABOUT MYSELF</span></p>
 					<h1 class="theme-color">UI/UX Designer & Developer</h1>
 					<p>I value simple content structure, clean design patterns, and thoughtful interactions. I tend to code things from scratch and enjoy bringing ideas to life in the browser. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding or pushing pixels, you'll find me listening to music while eating or driving.</p>
+					<a href="#work" class="btn btn-outline-light">My Projects</a>
 				</div>
 			</div>
 			<div class="col-md-5 order-first order-md-1 no-pad pos-r">
@@ -55,7 +56,7 @@
 		</div>
 		<!-- SKILLS -->
 		<div id="skills">
-			<h2><span>Skills</span></h2>
+			<h2><span class="theme-color">Skills</span></h2>
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
@@ -101,7 +102,7 @@
 			<h2><span class="theme-color">Work</span></h2>
 			<p>UI/UX Design & Development, Creating PSDs and Converting it to HTML, HTML5, CSS3, LESS/SCSS, Google AMP (accelerated mobile pages), GIF Banners, Wordpress, Bootstrap, Logo Design, Creative Concept & Strategy, Guidelines, Print.</p>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://inligting.com/">
 							<img class="img-fluid" src="img/inligting.jpg">
@@ -112,7 +113,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://grvgarg22.github.io/esquare">
 							<img class="img-fluid" src="img/esquare.png">
@@ -123,7 +124,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://grvgarg22.github.io/aspire">
 							<img class="img-fluid" src="img/aspire.png">
@@ -134,7 +135,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://aetherbiomedical.com/">
 							<img class="img-fluid" src="img/aether.jpg">
@@ -145,7 +146,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://birthstonecapital.com/">
 							<img class="img-fluid" src="img/birthstonecapital.jpg">
@@ -156,7 +157,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://payswiff.com/tap2phone/">
 							<img class="img-fluid" src="img/payswiff.jpg">
@@ -167,7 +168,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://www.goldenlocks.com/">
 							<img class="img-fluid" src="img/goldenlocks.jpg">
@@ -178,7 +179,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://web.archive.org/web/20180209051411/https://www.newsx.com/">
 							<img class="img-fluid" src="img/newsx.jpg">
@@ -189,7 +190,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://web.archive.org/web/20180412200444/https://www.sundayguardianlive.com/">
 							<img class="img-fluid" src="img/tsg.jpg">
@@ -202,7 +203,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://web.archive.org/web/20180209024022/https://www.inkhabar.com/">
 							<img class="img-fluid" src="img/inkhabar.jpg">
@@ -215,7 +216,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="http://www.prowrestlingleague.in/">
 							<img class="img-fluid" src="img/pwl.jpg">
@@ -228,7 +229,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://web.archive.org/web/20170907055354/http://prosportify.com/">
 							<img class="img-fluid" src="img/prosportify.jpg">
@@ -259,6 +260,14 @@
 	</div>
 
 	<!-- Optional JavaScript -->
+
+	<script>
+		$(".nav-item").on("click", function() {
+		  $(".nav-item").removeClass("active");
+		  $(this).addClass("active");
+		});
+	
+	</script>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
