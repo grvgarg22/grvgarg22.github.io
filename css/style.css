@@ -57,7 +57,8 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #contact ul li img { width: 2rem; }
 
 /***************** media queries **************/
-@media only screen and (max-width: 548px) { .navbar .navbar-nav { margin: 0; }
+
+@media only screen and (max-width: 767px) { .navbar .navbar-nav { margin: 0; }
   .navbar .navbar-nav li { text-align: center; }
   #about { padding: 0 0 8rem; height: auto; position: relative;}
   #about .pos-a {position: absolute; top: 0rem; bottom: 0; z-index: 9; background-color: rgba(0, 0, 0, 0.75);}
@@ -71,7 +72,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #skills .card { text-align: left; }
   #skills .card-body { padding: 1rem 0; text-align: center; }
   #skills .card-img-top { width: 20%; }
-  #work { width: 95%; margin: 1.5rem auto; }
+  #work { width: 100%; margin: 1.5rem auto; }
   #work h2 { font-size: 3rem; margin-bottom: 1rem; }
   #work > p { padding: 0.5rem; }
   #work .card, #work img { width: 100%; }
@@ -81,22 +82,13 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #contact h2 { font-size: 2rem; }
   #contact > p { font-size: 1.25rem; margin: 0; padding: 0.5rem 1.5rem; }
   #contact > img { width: 25%; margin: 1rem 0; }
-  #work .row { padding: 1rem 0; } }
-@media only screen and (min-width: 549px) and (max-width: 767px) { #about {height: auto; position: relative;}
-  #about .about-body { padding: 1rem; }
-  #about .pos-a {position: absolute; top: 0rem; bottom: 0; z-index: 9; background-color: rgba(0, 0, 0, 0.75);}
-  #about .about-body { padding: 1rem; }
-  #about p { margin: 1.5rem 0; font-size: 1.1rem;}
-  #about h1 { font-size: 2.5rem; }
-  #about p:last-child {color: #ccc;}
-  #skills h2 { font-size: 3rem; }
-  #skills .card-body { padding: 0.8rem; }
-  #work { width: 95%; margin: 1.5rem auto; }
-  #work .card { width: 100%; }
-  #work h2 { font-size: 3rem; margin-bottom: 2rem; }
-  #contact { padding: 2rem; }
-  #contact > img { width: 25%; margin: 1rem 0; }
-  #contact > p { font-size: 1.5rem; } }
+  #work .row { padding: 1rem 0; } 
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px) { 
+  #about { padding: 0 0 4rem; height: auto; position: relative;}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) { #about {height: auto;}
   #about .about-body { padding: 1rem 0; }
   #about p { margin-top: 0rem; font-size: 0.9rem;}
@@ -105,11 +97,14 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #skills h2 { font-size: 3rem; }
   #work { width: 90%; margin: 2rem auto; }
   #work h2 { font-size: 3rem; margin-bottom: 2rem; }
-  #contact > img { width: 20%; margin: 1rem; } }
+  #contact > img { width: 20%; margin: 1rem; } 
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1365px) { #about {height: auto; padding: 0 0 0 1rem;}
   #about .about-body {margin: 3rem 0; padding: 0;}
   #about p { margin-top: 0rem; }
   #about h1 { font-size: 2.5rem; }
-  #work { width: 90%; } }
+  #work { width: 90%; } 
+}
 
 /*# sourceMappingURL=style.css.map */
