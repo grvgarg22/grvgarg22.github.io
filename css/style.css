@@ -98,10 +98,10 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #contact > img { width: 25%; margin: 1rem 0; }
   #contact > p { font-size: 1.5rem; } }
 @media only screen and (min-width: 768px) and (max-width: 1023px) { #about {height: auto;}
-  #about .about-body { padding: 1rem; }
-  #about p { margin-top: 0rem; }
-  #about h1 { font-size: 2.5rem; }
-  #about img { width: 90%; }
+  #about .about-body { padding: 1rem 0; }
+  #about p { margin-top: 0rem; font-size: 0.9rem;}
+  #about .btn-outline-light {font-size: 0.9rem; padding: 0.375 1rem; margin: 1rem 0;}
+  #about h1 { font-size: 1.8rem; }
   #skills h2 { font-size: 3rem; }
   #work { width: 90%; margin: 2rem auto; }
   #work h2 { font-size: 3rem; margin-bottom: 2rem; }
