@@ -92,6 +92,11 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #work .row { padding: 1rem 0; } 
 }
 
+@media only screen and (min-width: 470px) and (max-width: 767px) { 
+  #about .pos-a {background-position: right; background: url(../img/gaurav2.jpg); background-size: 60%; background-repeat: no-repeat; background-position-x: right; padding: 0;}
+  #about .about-body { padding: 1.5rem; background-color: rgba(0, 0, 0, 0.75); margin: 1rem 0;}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) { #about {height: auto;}
   #about .about-body { padding: 1rem 0; }
   #about p { margin-top: 0rem; font-size: 0.9rem;}
