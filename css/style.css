@@ -67,6 +67,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #about h1 { font-size: 2rem; }
   #about p:last-child {color: #ccc;}
   #about img { width: 100%; margin: 0 0 9rem; transform: scaleX(-1); }
+  #about .btn-outline-light {font-size: 0.8rem; padding: .375rem .75rem;}
   #skills {padding: 3rem 1rem;}
   #skills h2 { font-size: 2rem; }
   #skills .col-md-3, #work .col-md-4 { padding: 0; }
