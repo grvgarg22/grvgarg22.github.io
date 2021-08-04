@@ -92,10 +92,6 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #work .row { padding: 1rem 0; } 
 }
 
-@media only screen and (min-width: 411px) and (max-width: 767px) { 
-  #skills {margin-top: 1rem;}
-}
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) { #about {height: auto;}
   #about .about-body { padding: 1rem 0; }
   #about p { margin-top: 0rem; font-size: 0.9rem;}
