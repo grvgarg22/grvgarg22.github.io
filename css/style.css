@@ -72,9 +72,9 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #skills .card { text-align: left; }
   #skills .card-body { padding: 1rem 0; text-align: center; }
   #skills .card-img-top { width: 20%; }
-  #work { width: 100%; margin: 1.5rem auto; }
+  #work { width: 100%; margin: 1.5rem auto; padding: 5rem 0;}
   #work h2 { font-size: 3rem; margin-bottom: 1rem; }
-  #work > p { padding: 0.5rem; }
+  #work > p { padding: 1.2rem; }
   #work .card, #work img { width: 100%; }
   #work .card-body { padding: 1.25rem 0; text-align: center; }
   #work .row .card h3 { font-family: 'abril fatface',cursive; font-size: 1.5rem; }
