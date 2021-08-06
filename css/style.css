@@ -14,8 +14,10 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 .navbar .navbar-nav { margin-left: 2rem; }
 .navbar-dark .navbar-nav .nav-link {color: #888; text-transform: uppercase; letter-spacing: 2px; font-weight: 500; padding: .5rem 1.25rem; font-size: 0.9rem;}
 .navbar .navbar-nav li a:hover { background: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-
+.section {padding: 5rem 2rem; }
 .section-title { text-align: center; font-size: 4rem; font-family: 'abril fatface',cursive; margin-bottom: 3rem;}
+footer {background-color: #222; text-align: center; padding: .75rem 1rem;}
+footer p {color: #888; margin: 0;}
 
 /******* about frame ********************/
 #about {padding: 0rem 0 0rem 1rem; height: auto; overflow: auto; background-color: #000; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; }
@@ -30,7 +32,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #about .card-img {width: 70%;}
 
 /********** skills frame *****************/
-#skills { padding: 5rem 2rem; background-image: url('../img/darkness.png'); /* background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/ color: #fff; }
+#skills {background-image: url('../img/darkness.png'); /* background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/ color: #fff; }
 #skills:after { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.76); }
 #skills .card { border: none; margin-top: 2rem; text-align: center; background: transparent; }
 #skills .card .card-title { font-weight: 600; color: #aaa; font-size: 1.15rem;}
@@ -40,7 +42,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #skills svg { width: 3rem; margin: 2rem auto; }
 
 /************** work frame *********************/
-#work { width: 90%; margin: 0 auto; padding: 5rem 2rem;}
+#work {width: 90%; margin: 0 auto;}
 #work > p { color: #888; padding: 1.5rem; }
 #work .row { padding: 2rem 0; }
 #work .row .card { border: none; background-color: transparent; margin-bottom: 2rem; border: 1px solid #000; padding: 0.5rem; transition: linear 500ms; border-radius: 0; }
@@ -50,18 +52,20 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 #work .row .card .card-title {font-size: 1.15rem; font-weight: 600;}
 #work .row .card p { color: #888; }
 
-/************* testimonial frame ********************/
-#testimonials { background-image: url('../img/darkness.png'); padding: 5rem 2rem;}
-#testimonials .carousel {margin: 5rem 0;}
-#testimonials .card {background: transparent; width: 60%; margin: 2rem auto;}
-#testimonials .card-header {color: #aaa;}
-#testimonials .card-text {color: #888;}
+/************* reviews frame ********************/
+#reviews {background-image: url('../img/darkness.png');}
+#reviews .carousel {margin: 0;}
+#reviews .card {background: transparent; width: 60%; margin: 2rem auto 4rem auto;}
+#reviews .card-header {color: #aaa;}
+#reviews .card-text {color: #888;}
 
 /************* contact frame ********************/
-#contact {padding: 5rem 2rem; text-align: center; display: flex; flex-direction: column; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
+#contact {text-align: center; display: flex; flex-direction: column; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
 #contact ul { list-style: none; padding: 0; margin: 0; display: inline-flex;}
-#contact ul li {margin: 1rem; border-radius: 2rem; padding: .75rem; border: 1px solid #333;}
-#contact ul li svg { width: 1.5rem;}
+#contact ul li {margin: 1rem; border-radius: 2rem; padding: .75rem; border: 1px solid #333; transition: linear .5s;}
+#contact ul li svg { width: 1.5rem; transition: linear .5s;}
+#contact ul li:hover {border-color: #666; transition: linear .5s;}
+#contact ul li:hover svg {fill: #ddd; transition: linear .5s;}
 
 /***************** media queries **************/
 
@@ -69,7 +73,9 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   .navbar .navbar-nav { margin: 0; }
   .navbar .navbar-nav li { text-align: center; }
   .navbar .navbar-brand {font-size: 1.5rem;}
-  #about { padding: 0; height: auto; position: relative;}
+  .section {padding: 3rem 1rem; }
+  .section-title { font-size: 2rem; margin-bottom: 2rem;}
+  #about {padding: 0; height: auto; position: relative;}
   #about .pos-a {background-position: right; background: url(../img/gaurav2.jpg); background-size: 68%; background-repeat: no-repeat; background-position-x: right; padding: 0;}
   #about .about-body { padding: 1.5rem; background-color: rgba(0, 0, 0, 0.75); margin: 1rem 0;}
   #about p { margin: 1rem 0; font-size: 1rem;}
@@ -77,25 +83,23 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #about p:last-child {color: #ccc;}
   #about .card {display: none;}
   #about .btn-outline-light {font-size: 0.8rem; padding: .375rem .75rem;}
-  #skills {padding: 3rem 1rem;}
-  #skills h2 { font-size: 2rem; margin-bottom: 2rem;}
+  #skills {text-align: left;}
   #skills .col-md-3, #work .col-md-4 { padding: 0; }
   #skills .card { text-align: left; }
-  #skills .card-body { padding: 1rem 0; text-align: center; }
+  #skills .card-body { padding: 1rem 0; text-align: left; }
   #skills .card title  {font-size: 1rem;}
   #skills .card-text {font-size: 0.9rem;}
-  #skills .card-img-top { width: 20%; }
-  #work { width: 100%; margin: 1.5rem auto; padding: 3rem 0;}
-  #work h2 { font-size: 2rem; margin-bottom: 2rem; }
+  #skills svg { margin: 1rem 0;}
+  #work { width: 100%; margin: 1.5rem auto 1rem; padding: 3rem 0 1rem;}
   #work > p { padding: 1.2rem; }
   #work .card, #work img { width: 100%; }
-  #work .card-body { padding: 1.25rem 0; text-align: center; }
+  #work .card-body { padding: 1.25rem 0; text-align: left; }
   #work .row .card h3 {font-size: 1.5rem; }
-  #testimonials .carousel {margin: 0;}
-  #testimonials .card {width: 100%;}
-  #testimonials h2 {font-size: 2rem;}
+  #reviews .carousel {margin: 0;}
+  #reviews .card {width: 100%;}
+  #reviews .card-header {padding: 1rem 0;}
+  #reviews .card-body {padding: 1rem 0;}
   #contact { padding: 2rem; }
-  #contact h2 { font-size: 2rem; }
   #contact > p { font-size: 1.25rem; margin: 0; padding: 0.5rem 1.5rem; }
   #contact > img { width: 25%; margin: 1rem 0; }
   #work .row { padding: 1rem 0; } 
@@ -110,10 +114,10 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #about .about-body { padding: 1rem 0; }
   #about p { margin-top: 0rem; font-size: 0.9rem;}
   #about .btn-outline-light {font-size: 0.9rem; padding: 0.375 1rem; margin: 1rem 0;}
-  #about h1 { font-size: 1.8rem; }
-  #skills h2 { font-size: 3rem; }
+  .section-title, #about h1 { font-size: 3rem; }
   #work { width: 90%; margin: 2rem auto; }
-  #work h2 { font-size: 3rem; margin-bottom: 2rem; }
+  #work h2 {margin-bottom: 2rem; }
+  #reviews .card {width: 90%;}
   #contact > img { width: 20%; margin: 1rem; } 
 }
 
@@ -121,7 +125,8 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #about .about-body {margin: 3rem 0; padding: 0;}
   #about p { margin-top: 0rem; }
   #about h1 { font-size: 2.5rem; }
-  #work { width: 90%; } 
+  #work { width: 90%;}
+  #reviews .card {width: 90%;} 
 }
 
 /*# sourceMappingURL=style.css.map */
