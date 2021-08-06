@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +26,16 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#work">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonials">Testimonials</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
@@ -40,59 +43,98 @@
 				</ul>
 			</div>
 		</nav>
+
 		<!-- ABOUT -->
-		<div class="row" id="about">
-			<div class="col-md-7 pos-a">
-				<div class="about-body">
-					<p><span>LET ME TELL YOU ABOUT MYSELF</span></p>
-					<h1 class="theme-color">UI/UX Designer & Developer</h1>
-					<p>I value simple content structure, clean design patterns, and thoughtful interactions. I tend to code things from scratch and enjoy bringing ideas to life in the browser. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding or pushing pixels, you'll find me listening to music while eating or driving.</p>
-					<a href="#work" class="btn btn-outline-light">My Projects</a>
+		<div  id="about">
+			<div class="row">
+				<div class="col-md-7 pos-a">
+					<div class="about-body">
+						<p><span>LET ME TELL YOU ABOUT MYSELF</span></p>
+						<h1 class="theme-color">UI/UX Designer & Developer</h1>
+						<p class="section-text">I value simple content structure, clean design patterns, and thoughtful interactions. I tend to code things from scratch and enjoy bringing ideas to life in the browser. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding or pushing pixels, you'll find me listening to music while eating or driving.</p>
+						<a href="#work" class="btn btn-outline-light">My Projects</a>
+					</div>
 				</div>
+				<div class="col-md-5 order-first order-md-1 no-pad">
+					<div class="card">
+						<img class="card-img" src="img/gaurav2.jpg">
+					</div>
+				</div> 
 			</div>
-			<div class="col-md-5 order-first order-md-1 no-pad">
-				<div class="card">
-					<img class="card-img" src="img/gaurav2.jpg">
-				</div>
-			</div> 
 		</div>
+
 		<!-- SKILLS -->
-		<div id="skills">
-			<h2><span class="theme-color">Skills</span></h2>
+		<div id="skills" class="section">
+			<h2 class="section-title"><span class="theme-color">Skills</span></h2>
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
-						<img class="card-img-top" src="img/creative.png" alt="Card image cap">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-bounding-box-circles" viewBox="0 0 16 16">
+							<path d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2zm2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2.004 2.004 0 0 1 1.437-1.437V3.937A2.004 2.004 0 0 1 12.063 2.5H3.937A2.004 2.004 0 0 1 2.5 3.937zM14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+						</svg>
 						<div class="card-body">
-							<h5 class="card-title"><span>User Experience</span></h5>
-							<p class="card-text">Strategy, Wireframing, Prototyping</p>
+							<h3 class="card-title"><span>User Experience</span></h3>
+							<ul>
+								<li>Strategy</li>
+								<li>Wireframing</li>
+								<li>Prototyping</li>
+								<li>UI Designing</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
-						<img class="card-img-top" src="img/responsive.png" alt="Card image cap">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-gear" viewBox="0 0 16 16">
+							<path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+							<path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+						</svg>
 						<div class="card-body">
-							<h5 class="card-title"><span>Web &amp; Development</span></h5>
-							<p class="card-text">Web design, Mobile Design, Page Speed Optimization, Cross-Browser Compatibility</p>
+							<h3 class="card-title"><span>Tools</span></h3>
+							<ul>
+								<li>Adobe Photoshop</li>
+								<li>Adobe Illustrator</li>
+								<li>Figma</li>
+								<li>Visual Studio Code</li>
+								<li>Git</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
-						<img class="card-img-top" src="img/attractive.png" alt="Card image cap">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+							<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+							<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+						</svg>
 						<div class="card-body">
-							<h5 class="card-title"><span>Aesthetics</span></h5>
-							<p class="card-text">Good eye for Color Combination, Layout, Fonts etc.</p>
+							<h3 class="card-title"><span>Aesthetics</span></h3>
+							<ul>
+								<li>Color Combination</li>
+								<li>Theming</li>
+								<li>Layout</li>
+								<li>Typography</li>
+								<li>Forms</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
-						<img class="card-img-top" src="img/coding.png" alt="Card image cap">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-code-slash" viewBox="0 0 16 16">
+							<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+						</svg>
 						<div class="card-body">
-							<h5 class="card-title"><span>Dev. &amp; Animation</span></h5>
-							<p class="card-text">Html5, Css3, SCSS, Bootstrap, jQuery, Google AMP (accelerated mobile pages)</p>
+							<h3 class="card-title"><span>Dev. &amp; Animation</span></h3>
+							<ul>
+								<li>Html5</li>
+								<li>Css3</li>
+								<li>SCSS</li>
+								<li>Bootstrap</li>
+								<li>jQuery</li>
+								<li>Google AMP (accelerated mobile pages)</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -100,25 +142,14 @@
 		</div>
 
 		<!-- WORK -->
-		<div id="work">
-			<h2><span class="theme-color">Work</span></h2>
+		<div id="work" class="section">
+			<h2 class="section-title"><span class="theme-color">Work</span></h2>
 			<p>UI/UX Design & Development, Creating PSDs and Converting it to HTML, HTML5, CSS3, LESS/SCSS, Google AMP (accelerated mobile pages), GIF Banners, Wordpress, Bootstrap, Logo Design, Creative Concept & Strategy, Guidelines, Print.</p>
 			<div class="row">
 				<div class="col-md-6 col-lg-4">
 					<div class="card">
-						<a href="https://inligting.com/">
-							<img class="img-fluid" src="img/inligting.jpg">
-						</a>
-						<div class="card-body">
-							<a href="https://inligting.com/"><h3 class="card-title"><span class="theme-color">Inligting</span></h3></a>
-							<p class="card-text">Designed & Developed SEO friendly UI, Logo Design, Responsive Website, Cross-Browser Compatible</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4">
-					<div class="card">
 						<a href="https://grvgarg22.github.io/esquare">
-							<img class="img-fluid" src="img/esquare.png">
+							<img class="img-fluid" src="img/esquare.jpeg">
 						</a>
 						<div class="card-body">
 							<a href="https://grvgarg22.github.io/esquare"><h3 class="card-title"><span class="theme-color">E-Square Homes</span></h3></a>
@@ -129,7 +160,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="card">
 						<a href="https://grvgarg22.github.io/aspire">
-							<img class="img-fluid" src="img/aspire.png">
+							<img class="img-fluid" src="img/aspire.jpeg">
 						</a>
 						<div class="card-body">
 							<a href="https://grvgarg22.github.io/aspire"><h3 class="card-title"><span class="theme-color">Aspire</span></h3></a>
@@ -156,6 +187,17 @@
 						<div class="card-body">
 							<a href="https://birthstonecapital.com/"><h3 class="card-title"><span class="theme-color">Birthstone Capital</span></h3></a>
 							<p class="card-text">Developed UI, Responsive Website & Cross-Browser Compatible</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card">
+						<a href="https://inligting.com/">
+							<img class="img-fluid" src="img/inligting.jpg">
+						</a>
+						<div class="card-body">
+							<a href="https://inligting.com/"><h3 class="card-title"><span class="theme-color">Inligting</span></h3></a>
+							<p class="card-text">Designed & Developed SEO friendly UI, Logo Design, Responsive Website, Cross-Browser Compatible</p>
 						</div>
 					</div>
 				</div>
@@ -247,32 +289,87 @@
 			</div>
 		</div>
 
-		<div class="partition"></div>
+		<!-- TESTIMONIALS -->
+		<div id="testimonials" class="section">
+			<h2 class="section-title"><span class="theme-color">Testimonials</span></h2>
+			<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card">
+							<h5 class="card-header">Gaurav Garg</h5>
+							<div class="card-body">
+								<h5 class="card-title theme-color">Sr. UI/UX Designer</h5>
+								<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="card">
+							<h5 class="card-header">Featured</h5>
+							<div class="card-body">
+								<h5 class="card-title theme-color">Special title treatment</h5>
+								<p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="card">
+							<h5 class="card-header">Featured</h5>
+							<div class="card-body">
+								<h5 class="card-title theme-color">Special title treatment</h5>
+								<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- CONTACT -->
-		<div id="contact">
-			<h2>Contact me:</h2>
+		<div id="contact" class="section">
+			<h2 class="section-title"><span class="theme-color">Contact</span></h2>
 			<ul>
-				<li><a href="tel:+919782382313"><img src="img/call.png"></a></li>
-				<li><a href="mailto:grvgarg22@gmail.com"><img src="img/email.png"></a></li>
-				<li><a href="https://github.com/grvgarg22"><img src="img/github.png"></a></li>
-				<li><a href="https://www.linkedin.com/in/gaurav-garg-785376130/"><img src="img/linkedin.png"></a></li>
+				<li>
+					<a href="tel:+919782382313">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:grvgarg22@gmail.com">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+							<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/grvgarg22">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-github" viewBox="0 0 16 16">
+							<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/gaurav-garg-785376130/">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#888" class="bi bi-linkedin" viewBox="0 0 16 16">
+							<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+						</svg>
+					</a>
+				</li>
 			</ul>
 		</div>
+		
+		<div class="partition"></div>
 	</div>
 
 	<!-- Optional JavaScript -->
-
-	<script>
-		$(".nav-item").on("click", function() {
-		  $(".nav-item").removeClass("active");
-		  $(this).addClass("active");
-		});
-	
-	</script>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
 </html>
