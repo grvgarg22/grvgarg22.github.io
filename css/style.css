@@ -18,7 +18,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 .section-title { text-align: center; font-size: 4rem; font-family: 'abril fatface',cursive; margin-bottom: 3rem;}
 
 /******* about frame ********************/
-#about { padding: 0rem 0 0rem 1rem; height: auto; overflow: auto; background-color: #000; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; }
+#about {padding: 0rem 0 0rem 1rem; height: auto; overflow: auto; background-color: #000; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; }
 #about .about-body {padding: 5rem;}
 #about p:first-child { font-size: 1.1rem; color: #aaa;}
 #about p span { border-bottom: 1px solid #ddd; }
@@ -65,7 +65,8 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 
 /***************** media queries **************/
 
-@media only screen and (max-width: 767px) { .navbar .navbar-nav { margin: 0; }
+@media only screen and (max-width: 767px) { .navbar {padding-right: 2rem;}
+  .navbar .navbar-nav { margin: 0; }
   .navbar .navbar-nav li { text-align: center; }
   .navbar .navbar-brand {font-size: 1.5rem;}
   #about { padding: 0; height: auto; position: relative;}
@@ -90,6 +91,9 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #work .card, #work img { width: 100%; }
   #work .card-body { padding: 1.25rem 0; text-align: center; }
   #work .row .card h3 { font-family: 'abril fatface',cursive; font-size: 1.5rem; }
+  #testimonials .carousel {margin: 0;}
+  #testimonials .card {width: 100%;}
+  #testimonials h2 {font-size: 2rem;}
   #contact { padding: 2rem; }
   #contact h2 { font-size: 2rem; }
   #contact > p { font-size: 1.25rem; margin: 0; padding: 0.5rem 1.5rem; }
