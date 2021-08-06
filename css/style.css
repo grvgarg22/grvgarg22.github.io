@@ -16,7 +16,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
 .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active {color: #ddd;}
 .section {padding: 5rem 2rem; }
 .section-title { text-align: center; font-size: 4rem; font-family: 'abril fatface',cursive; margin-bottom: 3rem;}
-footer {background-color: #222; text-align: center; padding: .75rem 1rem;}
+footer {background-color: #1a1a1a; text-align: center; padding: .75rem 1rem;}
 footer p {color: #888; margin: 0;}
 
 /******* about frame ********************/
