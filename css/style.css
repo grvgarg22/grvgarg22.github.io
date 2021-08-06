@@ -90,7 +90,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #000; }
   #work > p { padding: 1.2rem; }
   #work .card, #work img { width: 100%; }
   #work .card-body { padding: 1.25rem 0; text-align: center; }
-  #work .row .card h3 { font-family: 'abril fatface',cursive; font-size: 1.5rem; }
+  #work .row .card h3 {font-size: 1.5rem; }
   #testimonials .carousel {margin: 0;}
   #testimonials .card {width: 100%;}
   #testimonials h2 {font-size: 2rem;}
