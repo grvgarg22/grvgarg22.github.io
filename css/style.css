@@ -26,8 +26,8 @@ footer p {color: #888; margin: 0;}
 #about p span { border-bottom: 1px solid #ddd; }
 #about h1 { font-size: 4.2rem; font-family: 'abril fatface',cursive; margin-bottom: 1rem; }
 #about .section-text { margin-top: 1rem; color: #888; font-size: 1.1rem;}
-#about .btn-outline-light {border-radius: 2rem; padding: .5rem 2rem; border-color: #4ee4ac; color: #4ee4ac; animation: hue-rotate 2.5s linear infinite both; transition: linear .5s; text-transform: uppercase; letter-spacing: 2px; margin-top: 2rem;}
-#about .btn-outline-light:hover {background-color: #4ee4ac; color: #000; animation: hue-rotate 2.5s linear infinite both; transition: linear .5s;}
+#about .btn-outline-light {border-radius: 2rem; padding: .5rem 2rem; border-color: #4ee4ac; color: #4ee4ac; animation: hue-rotate 2.5s linear infinite both; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 2rem;}
+#about .btn-outline-light:hover {padding: .75rem 2.25rem; background: transparent; transition: linear .25s;}
 #about .card {border: none; display: flex; align-items: flex-end; background: transparent;}
 #about .card-img {width: 70%;}
 
@@ -75,7 +75,7 @@ footer p {color: #888; margin: 0;}
   .navbar .navbar-nav li { text-align: center; }
   .navbar .navbar-brand {font-size: 1.5rem;}
   .section {padding: 3rem 1rem; }
-  .section-title { font-size: 2rem; margin-bottom: 2rem;}
+  .section-title { font-size: 2.5rem; margin-bottom: 2rem;}
   #about {padding: 0; height: auto; position: relative;}
   #about .pos-a {background-position: right; background: url(../img/gaurav2.jpg); background-size: 68%; background-repeat: no-repeat; background-position-x: right; padding: 0;}
   #about .about-body { padding: 1.5rem; background-color: rgba(0, 0, 0, 0.75); margin: 1rem 0;}
@@ -84,6 +84,7 @@ footer p {color: #888; margin: 0;}
   #about p:last-child {color: #ccc;}
   #about .card {display: none;}
   #about .btn-outline-light {font-size: 0.8rem; padding: .375rem .75rem;}
+  #about .btn-outline-light:hover {padding: .5rem .875rem;} 
   #skills {text-align: left;}
   #skills .col-md-3, #work .col-md-4 { padding: 0; }
   #skills .card { text-align: left; }
