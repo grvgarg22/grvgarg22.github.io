@@ -79,7 +79,7 @@ footer p {color: #888; margin: 0; font-size: 0.8rem;}
   .section-title { font-size: 2.5rem; margin-bottom: 2rem;}
   #about {padding: 0; height: auto; position: relative;}
   #about .pos-a {background-position: right; background: url(../img/gaurav2.jpg); background-size: 68%; background-repeat: no-repeat; background-position-x: right; padding: 0;}
-  #about .about-body { padding: 0 1.5rem; background-color: rgba(0, 0, 0, 0.75); margin: 1rem 0;}
+  #about .about-body { padding: 1.5rem; background-color: rgba(0, 0, 0, 0.75); margin: 1rem 0 0;}
   #about p { margin: 1rem 0; font-size: 1rem;}
   #about h1 { font-size: 2rem; }
   #about p:last-child {color: #ccc;}
