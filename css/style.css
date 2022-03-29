@@ -58,6 +58,7 @@ footer p {color: #888; margin: 0; font-size: 0.8rem;}
 #reviews .carousel {margin: 0;}
 #reviews .card {background: transparent; width: 60%; margin: 2rem auto 4rem auto;}
 #reviews .card-header {color: #aaa; font-size: 1.15rem;}
+#reviews .card-header span { border-bottom: 1px solid #aaa; }
 #reviews .card-title {font-size: 1.15rem;}
 #reviews .card-text {color: #888;}
 
