@@ -54,7 +54,7 @@ footer p {color: #888; margin: 0; font-size: 0.8rem;}
 #work .row .card p { color: #888; }
 
 /************* reviews frame ********************/
-#reviews {background-image: url('../img/darkness.png'); display: none;}
+#reviews {background-image: url('../img/darkness.png');}
 #reviews .carousel {margin: 0;}
 #reviews .card {background: transparent; width: 60%; margin: 2rem auto 4rem auto;}
 #reviews .card-header {color: #aaa; font-size: 1.15rem;}
